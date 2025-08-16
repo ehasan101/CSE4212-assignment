@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- https://getbootstrap.com/docs/5.0/getting-started/introduction/ - Starter template  -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="style-reg-log.css" rel="stylesheet" id="bootstrap-css">
+
+
+    <title>Regsistation</title>
+  </head>
+
+
+
+  <body>
+    <!-- https://getbootstrap.com/docs/5.0/forms/overview/ -->
+
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-4 col-sm-6">
+        
+
+            <form action="Reginsert.php" method="post">
+
+                <div class="mb-3">
+                  <div class="text-center">
+                    <img src="pic/reg.png" width="80%" alt="add" border="0">
+                    <h2 class="text-center">REGSISTATION SECTION</h2> <hr>
+                    <p>if you are a <b> New here? </b> then Please <b>Join</b> with us!</p>
+                  </div>
+        
+                    <div class="mb-3">
+                      USERNAME
+
+                      <input type="text" placeholder="emamul" class="form-control" id="iunam" name="username">
+                    </div>
+
+                    <div class="mb-3">
+                      EMAIL
+    
+                          <input type="email" placeholder="emamul@lus.ac.bd" class="form-control"  name="email">
+                        </div>
+    
+                        
+    
+                        <div class="mb-3">
+                          PHONE
+    
+                          <input type="text" placeholder="+8801500000000" class="form-control" id="iemob" name="no">
+                        </div> 
+                    
+
+
+                    <div class="mb-3">
+                      PASSWORD
+                      <input type="text" placeholder="hiThisP@ss!111" class="form-control" id="ipass" name="pass">
+                    </div> 
+
+                    <!-- <div class="mb-3">
+                        confirm-password:
+                          <input type="password" class="form-control" id="ipass" name="conpass">
+                        </div>  -->
+            
+
+                    <input type="submit" class="btn btn-lg btn-primary btn-block btnlr col-12" name="submit" value="Regsister"/>
+
+                    <p> </p>Already registered! Please <a href="loginPHP.html">Login</a>... </p>
+            
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+  
+  </body>
+</html>

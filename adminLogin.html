@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- https://getbootstrap.com/docs/5.0/getting-started/introduction/ - Starter template  -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="style-reg-log.css" rel="stylesheet" id="bootstrap-css">
+
+    <title>Admin-login</title>
+
+  </head>
+
+
+
+  <body>
+
+
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-4 col-sm-6">
+        
+
+                <form action="adminAct.php" method="post">
+
+                    <div class="mb-3">
+                      <div class="text-center">
+                        <img src="pic/admin.jpg" width="60%" alt="admin-key" border="0">
+                        <h2 class="text-center">A D M I N</h2> <hr>
+                        <p><b> Restricted Area!!!</b></p>
+                      </div>
+ 
+
+                    
+
+                    <div class="mb-3">
+                      <input type="text" class="form-control" name="username" placeholder="username" >
+                    </div>
+                      <input type="password" class="form-control" name="pass" placeholder="password" >
+                    </div> 
+                    
+            
+
+                    <button type="submit" class="btn btn-lg btn-primary btn-block btnlr col-12">Login</button>
+
+                    <p> <br> For General user <a href="loginPHP.html">Login</a>... </p>
+
+                </form>
+
+            </div>
+
+        </div>
+    </div>
+  
+  </body>
+</html>
